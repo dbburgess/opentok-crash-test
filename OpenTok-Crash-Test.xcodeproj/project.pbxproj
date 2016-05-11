@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3D2B3301CE379B900F8B1D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D2B32F1CE379B900F8B1D4 /* AppDelegate.swift */; };
+		B3D2B3321CE379B900F8B1D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D2B3311CE379B900F8B1D4 /* ViewController.swift */; };
+		B3D2B3351CE379B900F8B1D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D2B3331CE379B900F8B1D4 /* Main.storyboard */; };
+		B3D2B3371CE379B900F8B1D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D2B3361CE379B900F8B1D4 /* Assets.xcassets */; };
+		B3D2B33A1CE379B900F8B1D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D2B3381CE379B900F8B1D4 /* LaunchScreen.storyboard */; };
+		B3D2B3451CE379B900F8B1D4 /* OpenTok_Crash_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D2B3441CE379B900F8B1D4 /* OpenTok_Crash_TestTests.swift */; };
+		B3D2B3501CE379B900F8B1D4 /* OpenTok_Crash_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D2B34F1CE379B900F8B1D4 /* OpenTok_Crash_TestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3D2B3411CE379B900F8B1D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3D2B3241CE379B900F8B1D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3D2B32B1CE379B900F8B1D4;
+			remoteInfo = "OpenTok-Crash-Test";
+		};
+		B3D2B34C1CE379B900F8B1D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3D2B3241CE379B900F8B1D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3D2B32B1CE379B900F8B1D4;
+			remoteInfo = "OpenTok-Crash-Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3D2B32C1CE379B900F8B1D4 /* OpenTok-Crash-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenTok-Crash-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D2B32F1CE379B900F8B1D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3D2B3311CE379B900F8B1D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3D2B3341CE379B900F8B1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3D2B3361CE379B900F8B1D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3D2B3391CE379B900F8B1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3D2B33B1CE379B900F8B1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D2B3401CE379B900F8B1D4 /* OpenTok-Crash-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenTok-Crash-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D2B3441CE379B900F8B1D4 /* OpenTok_Crash_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTok_Crash_TestTests.swift; sourceTree = "<group>"; };
+		B3D2B3461CE379B900F8B1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D2B34B1CE379B900F8B1D4 /* OpenTok-Crash-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenTok-Crash-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D2B34F1CE379B900F8B1D4 /* OpenTok_Crash_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTok_Crash_TestUITests.swift; sourceTree = "<group>"; };
+		B3D2B3511CE379B900F8B1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3D2B3291CE379B900F8B1D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D2B33D1CE379B900F8B1D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D2B3481CE379B900F8B1D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3D2B3231CE379B900F8B1D4 = {
+			isa = PBXGroup;
+			children = (
+				B3D2B32E1CE379B900F8B1D4 /* OpenTok-Crash-Test */,
+				B3D2B3431CE379B900F8B1D4 /* OpenTok-Crash-TestTests */,
+				B3D2B34E1CE379B900F8B1D4 /* OpenTok-Crash-TestUITests */,
+				B3D2B32D1CE379B900F8B1D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3D2B32D1CE379B900F8B1D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3D2B32C1CE379B900F8B1D4 /* OpenTok-Crash-Test.app */,
+				B3D2B3401CE379B900F8B1D4 /* OpenTok-Crash-TestTests.xctest */,
+				B3D2B34B1CE379B900F8B1D4 /* OpenTok-Crash-TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3D2B32E1CE379B900F8B1D4 /* OpenTok-Crash-Test */ = {
+			isa = PBXGroup;
+			children = (
+				B3D2B32F1CE379B900F8B1D4 /* AppDelegate.swift */,
+				B3D2B3311CE379B900F8B1D4 /* ViewController.swift */,
+				B3D2B3331CE379B900F8B1D4 /* Main.storyboard */,
+				B3D2B3361CE379B900F8B1D4 /* Assets.xcassets */,
+				B3D2B3381CE379B900F8B1D4 /* LaunchScreen.storyboard */,
+				B3D2B33B1CE379B900F8B1D4 /* Info.plist */,
+			);
+			path = "OpenTok-Crash-Test";
+			sourceTree = "<group>";
+		};
+		B3D2B3431CE379B900F8B1D4 /* OpenTok-Crash-TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3D2B3441CE379B900F8B1D4 /* OpenTok_Crash_TestTests.swift */,
+				B3D2B3461CE379B900F8B1D4 /* Info.plist */,
+			);
+			path = "OpenTok-Crash-TestTests";
+			sourceTree = "<group>";
+		};
+		B3D2B34E1CE379B900F8B1D4 /* OpenTok-Crash-TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3D2B34F1CE379B900F8B1D4 /* OpenTok_Crash_TestUITests.swift */,
+				B3D2B3511CE379B900F8B1D4 /* Info.plist */,
+			);
+			path = "OpenTok-Crash-TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3D2B32B1CE379B900F8B1D4 /* OpenTok-Crash-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D2B3541CE379B900F8B1D4 /* Build configuration list for PBXNativeTarget "OpenTok-Crash-Test" */;
+			buildPhases = (
+				B3D2B3281CE379B900F8B1D4 /* Sources */,
+				B3D2B3291CE379B900F8B1D4 /* Frameworks */,
+				B3D2B32A1CE379B900F8B1D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenTok-Crash-Test";
+			productName = "OpenTok-Crash-Test";
+			productReference = B3D2B32C1CE379B900F8B1D4 /* OpenTok-Crash-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3D2B33F1CE379B900F8B1D4 /* OpenTok-Crash-TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D2B3571CE379B900F8B1D4 /* Build configuration list for PBXNativeTarget "OpenTok-Crash-TestTests" */;
+			buildPhases = (
+				B3D2B33C1CE379B900F8B1D4 /* Sources */,
+				B3D2B33D1CE379B900F8B1D4 /* Frameworks */,
+				B3D2B33E1CE379B900F8B1D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3D2B3421CE379B900F8B1D4 /* PBXTargetDependency */,
+			);
+			name = "OpenTok-Crash-TestTests";
+			productName = "OpenTok-Crash-TestTests";
+			productReference = B3D2B3401CE379B900F8B1D4 /* OpenTok-Crash-TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3D2B34A1CE379B900F8B1D4 /* OpenTok-Crash-TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D2B35A1CE379B900F8B1D4 /* Build configuration list for PBXNativeTarget "OpenTok-Crash-TestUITests" */;
+			buildPhases = (
+				B3D2B3471CE379B900F8B1D4 /* Sources */,
+				B3D2B3481CE379B900F8B1D4 /* Frameworks */,
+				B3D2B3491CE379B900F8B1D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3D2B34D1CE379B900F8B1D4 /* PBXTargetDependency */,
+			);
+			name = "OpenTok-Crash-TestUITests";
+			productName = "OpenTok-Crash-TestUITests";
+			productReference = B3D2B34B1CE379B900F8B1D4 /* OpenTok-Crash-TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3D2B3241CE379B900F8B1D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Fitnet;
+				TargetAttributes = {
+					B3D2B32B1CE379B900F8B1D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B3D2B33F1CE379B900F8B1D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B3D2B32B1CE379B900F8B1D4;
+					};
+					B3D2B34A1CE379B900F8B1D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B3D2B32B1CE379B900F8B1D4;
+					};
+				};
+			};
+			buildConfigurationList = B3D2B3271CE379B900F8B1D4 /* Build configuration list for PBXProject "OpenTok-Crash-Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3D2B3231CE379B900F8B1D4;
+			productRefGroup = B3D2B32D1CE379B900F8B1D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3D2B32B1CE379B900F8B1D4 /* OpenTok-Crash-Test */,
+				B3D2B33F1CE379B900F8B1D4 /* OpenTok-Crash-TestTests */,
+				B3D2B34A1CE379B900F8B1D4 /* OpenTok-Crash-TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3D2B32A1CE379B900F8B1D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D2B33A1CE379B900F8B1D4 /* LaunchScreen.storyboard in Resources */,
+				B3D2B3371CE379B900F8B1D4 /* Assets.xcassets in Resources */,
+				B3D2B3351CE379B900F8B1D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D2B33E1CE379B900F8B1D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D2B3491CE379B900F8B1D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3D2B3281CE379B900F8B1D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D2B3321CE379B900F8B1D4 /* ViewController.swift in Sources */,
+				B3D2B3301CE379B900F8B1D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D2B33C1CE379B900F8B1D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D2B3451CE379B900F8B1D4 /* OpenTok_Crash_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D2B3471CE379B900F8B1D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D2B3501CE379B900F8B1D4 /* OpenTok_Crash_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3D2B3421CE379B900F8B1D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3D2B32B1CE379B900F8B1D4 /* OpenTok-Crash-Test */;
+			targetProxy = B3D2B3411CE379B900F8B1D4 /* PBXContainerItemProxy */;
+		};
+		B3D2B34D1CE379B900F8B1D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3D2B32B1CE379B900F8B1D4 /* OpenTok-Crash-Test */;
+			targetProxy = B3D2B34C1CE379B900F8B1D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3D2B3331CE379B900F8B1D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3D2B3341CE379B900F8B1D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3D2B3381CE379B900F8B1D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3D2B3391CE379B900F8B1D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3D2B3521CE379B900F8B1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3D2B3531CE379B900F8B1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3D2B3551CE379B900F8B1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OpenTok-Crash-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.fit.OpenTok-Crash-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3D2B3561CE379B900F8B1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OpenTok-Crash-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.fit.OpenTok-Crash-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B3D2B3581CE379B900F8B1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "OpenTok-Crash-TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.fit.OpenTok-Crash-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenTok-Crash-Test.app/OpenTok-Crash-Test";
+			};
+			name = Debug;
+		};
+		B3D2B3591CE379B900F8B1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "OpenTok-Crash-TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.fit.OpenTok-Crash-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenTok-Crash-Test.app/OpenTok-Crash-Test";
+			};
+			name = Release;
+		};
+		B3D2B35B1CE379B900F8B1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "OpenTok-Crash-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.fit.OpenTok-Crash-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenTok-Crash-Test";
+			};
+			name = Debug;
+		};
+		B3D2B35C1CE379B900F8B1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "OpenTok-Crash-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.fit.OpenTok-Crash-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenTok-Crash-Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3D2B3271CE379B900F8B1D4 /* Build configuration list for PBXProject "OpenTok-Crash-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D2B3521CE379B900F8B1D4 /* Debug */,
+				B3D2B3531CE379B900F8B1D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3D2B3541CE379B900F8B1D4 /* Build configuration list for PBXNativeTarget "OpenTok-Crash-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D2B3551CE379B900F8B1D4 /* Debug */,
+				B3D2B3561CE379B900F8B1D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3D2B3571CE379B900F8B1D4 /* Build configuration list for PBXNativeTarget "OpenTok-Crash-TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D2B3581CE379B900F8B1D4 /* Debug */,
+				B3D2B3591CE379B900F8B1D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3D2B35A1CE379B900F8B1D4 /* Build configuration list for PBXNativeTarget "OpenTok-Crash-TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D2B35B1CE379B900F8B1D4 /* Debug */,
+				B3D2B35C1CE379B900F8B1D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3D2B3241CE379B900F8B1D4 /* Project object */;
+}
