@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		533D4A3AD8847E6418AAEBC3 /* Pods_OpenTok_Crash_TestAbstractTarget_OpenTok_Crash_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A414BB0065A7F60CE7C1529A /* Pods_OpenTok_Crash_TestAbstractTarget_OpenTok_Crash_Test.framework */; };
+		88BA5822735CBAA65B314D2E /* Pods_OpenTok_Crash_TestAbstractTarget_OpenTok_Crash_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5299ADBBFADA9D3AD5E1EF1 /* Pods_OpenTok_Crash_TestAbstractTarget_OpenTok_Crash_TestTests.framework */; };
 		B3D2B3301CE379B900F8B1D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D2B32F1CE379B900F8B1D4 /* AppDelegate.swift */; };
 		B3D2B3321CE379B900F8B1D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D2B3311CE379B900F8B1D4 /* ViewController.swift */; };
 		B3D2B3351CE379B900F8B1D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D2B3331CE379B900F8B1D4 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		B3D2B33A1CE379B900F8B1D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D2B3381CE379B900F8B1D4 /* LaunchScreen.storyboard */; };
 		B3D2B3451CE379B900F8B1D4 /* OpenTok_Crash_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D2B3441CE379B900F8B1D4 /* OpenTok_Crash_TestTests.swift */; };
 		B3D2B3501CE379B900F8B1D4 /* OpenTok_Crash_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D2B34F1CE379B900F8B1D4 /* OpenTok_Crash_TestUITests.swift */; };
+		DE12832948AF5BB20C94259E /* Pods_OpenTok_Crash_TestAbstractTarget_OpenTok_Crash_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBFE5F67787089BF9972C22 /* Pods_OpenTok_Crash_TestAbstractTarget_OpenTok_Crash_TestUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BE8DED6257484F7A44BCF4E /* Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestTests/Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C09F822D68598BF50FB794C /* Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestUITests/Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2CBFE5F67787089BF9972C22 /* Pods_OpenTok_Crash_TestAbstractTarget_OpenTok_Crash_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenTok_Crash_TestAbstractTarget_OpenTok_Crash_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3369F907F57690A534609188 /* Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestUITests/Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		88475F474D6774D40B7E4E4B /* Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-Test/Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-Test.release.xcconfig"; sourceTree = "<group>"; };
+		A414BB0065A7F60CE7C1529A /* Pods_OpenTok_Crash_TestAbstractTarget_OpenTok_Crash_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenTok_Crash_TestAbstractTarget_OpenTok_Crash_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D2B32C1CE379B900F8B1D4 /* OpenTok-Crash-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenTok-Crash-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D2B32F1CE379B900F8B1D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3D2B3311CE379B900F8B1D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		B3D2B34B1CE379B900F8B1D4 /* OpenTok-Crash-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenTok-Crash-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D2B34F1CE379B900F8B1D4 /* OpenTok_Crash_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTok_Crash_TestUITests.swift; sourceTree = "<group>"; };
 		B3D2B3511CE379B900F8B1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDDAB030050757F41F67FE2B /* Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestTests/Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5299ADBBFADA9D3AD5E1EF1 /* Pods_OpenTok_Crash_TestAbstractTarget_OpenTok_Crash_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenTok_Crash_TestAbstractTarget_OpenTok_Crash_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E60930D0C1FC754603BC2859 /* Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-Test/Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-Test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				533D4A3AD8847E6418AAEBC3 /* Pods_OpenTok_Crash_TestAbstractTarget_OpenTok_Crash_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88BA5822735CBAA65B314D2E /* Pods_OpenTok_Crash_TestAbstractTarget_OpenTok_Crash_TestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE12832948AF5BB20C94259E /* Pods_OpenTok_Crash_TestAbstractTarget_OpenTok_Crash_TestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A53697D9F0107CF8204A676F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A414BB0065A7F60CE7C1529A /* Pods_OpenTok_Crash_TestAbstractTarget_OpenTok_Crash_Test.framework */,
+				E5299ADBBFADA9D3AD5E1EF1 /* Pods_OpenTok_Crash_TestAbstractTarget_OpenTok_Crash_TestTests.framework */,
+				2CBFE5F67787089BF9972C22 /* Pods_OpenTok_Crash_TestAbstractTarget_OpenTok_Crash_TestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B3D2B3231CE379B900F8B1D4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				B3D2B3431CE379B900F8B1D4 /* OpenTok-Crash-TestTests */,
 				B3D2B34E1CE379B900F8B1D4 /* OpenTok-Crash-TestUITests */,
 				B3D2B32D1CE379B900F8B1D4 /* Products */,
+				C293EBB35AE3CA8463401E9F /* Pods */,
+				A53697D9F0107CF8204A676F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,19 @@
 			path = "OpenTok-Crash-TestUITests";
 			sourceTree = "<group>";
 		};
+		C293EBB35AE3CA8463401E9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E60930D0C1FC754603BC2859 /* Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-Test.debug.xcconfig */,
+				88475F474D6774D40B7E4E4B /* Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-Test.release.xcconfig */,
+				0BE8DED6257484F7A44BCF4E /* Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestTests.debug.xcconfig */,
+				DDDAB030050757F41F67FE2B /* Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestTests.release.xcconfig */,
+				3369F907F57690A534609188 /* Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestUITests.debug.xcconfig */,
+				1C09F822D68598BF50FB794C /* Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3D2B3541CE379B900F8B1D4 /* Build configuration list for PBXNativeTarget "OpenTok-Crash-Test" */;
 			buildPhases = (
+				863E4FCC192B887A09EAF0BA /* 📦 Check Pods Manifest.lock */,
 				B3D2B3281CE379B900F8B1D4 /* Sources */,
 				B3D2B3291CE379B900F8B1D4 /* Frameworks */,
 				B3D2B32A1CE379B900F8B1D4 /* Resources */,
+				574A9EE7FE5861785B90E9AF /* 📦 Embed Pods Frameworks */,
+				E9A46E7BB37B15538CA02238 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3D2B3571CE379B900F8B1D4 /* Build configuration list for PBXNativeTarget "OpenTok-Crash-TestTests" */;
 			buildPhases = (
+				1C83A6130CC7E9D26D441220 /* 📦 Check Pods Manifest.lock */,
 				B3D2B33C1CE379B900F8B1D4 /* Sources */,
 				B3D2B33D1CE379B900F8B1D4 /* Frameworks */,
 				B3D2B33E1CE379B900F8B1D4 /* Resources */,
+				AA9546E6BB446ECF9B545FFC /* 📦 Embed Pods Frameworks */,
+				5E2189DC3003BD20E3960388 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3D2B35A1CE379B900F8B1D4 /* Build configuration list for PBXNativeTarget "OpenTok-Crash-TestUITests" */;
 			buildPhases = (
+				E49FE834F15692732FA1E0BA /* 📦 Check Pods Manifest.lock */,
 				B3D2B3471CE379B900F8B1D4 /* Sources */,
 				B3D2B3481CE379B900F8B1D4 /* Frameworks */,
 				B3D2B3491CE379B900F8B1D4 /* Resources */,
+				D8E22A113A9F7DF7679B0371 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +298,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C83A6130CC7E9D26D441220 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		574A9EE7FE5861785B90E9AF /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-Test/Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E2189DC3003BD20E3960388 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestTests/Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		863E4FCC192B887A09EAF0BA /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA9546E6BB446ECF9B545FFC /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestTests/Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8E22A113A9F7DF7679B0371 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestUITests/Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E49FE834F15692732FA1E0BA /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9A46E7BB37B15538CA02238 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-Test/Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B3D2B3281CE379B900F8B1D4 /* Sources */ = {
@@ -399,6 +570,7 @@
 		};
 		B3D2B3551CE379B900F8B1D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60930D0C1FC754603BC2859 /* Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "OpenTok-Crash-Test/Info.plist";
@@ -410,6 +582,7 @@
 		};
 		B3D2B3561CE379B900F8B1D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88475F474D6774D40B7E4E4B /* Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "OpenTok-Crash-Test/Info.plist";
@@ -421,6 +594,7 @@
 		};
 		B3D2B3581CE379B900F8B1D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE8DED6257484F7A44BCF4E /* Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "OpenTok-Crash-TestTests/Info.plist";
@@ -433,6 +607,7 @@
 		};
 		B3D2B3591CE379B900F8B1D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDDAB030050757F41F67FE2B /* Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "OpenTok-Crash-TestTests/Info.plist";
@@ -445,6 +620,7 @@
 		};
 		B3D2B35B1CE379B900F8B1D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3369F907F57690A534609188 /* Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "OpenTok-Crash-TestUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +632,7 @@
 		};
 		B3D2B35C1CE379B900F8B1D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C09F822D68598BF50FB794C /* Pods-OpenTok-Crash-TestAbstractTarget-OpenTok-Crash-TestUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "OpenTok-Crash-TestUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +661,7 @@
 				B3D2B3561CE379B900F8B1D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3D2B3571CE379B900F8B1D4 /* Build configuration list for PBXNativeTarget "OpenTok-Crash-TestTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +670,7 @@
 				B3D2B3591CE379B900F8B1D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3D2B35A1CE379B900F8B1D4 /* Build configuration list for PBXNativeTarget "OpenTok-Crash-TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +679,7 @@
 				B3D2B35C1CE379B900F8B1D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
