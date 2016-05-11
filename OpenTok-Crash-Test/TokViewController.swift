@@ -66,6 +66,16 @@ class TokViewController: UIViewController {
         // Setup the custom video capturer.
         let videoCapture = OpenTokVideoCapturer()
 
+        // HACK: Uncomment this to fix the crash.
+        // All this basically does is add a +1 to the retain count of videoCapture,
+        // without ARC automatically adding a corresponding -1. This is necessary
+        // because internally, videoCapture is not being retained by the publisher
+        // for some reason, so it goes away when this scope ends. You can save it
+        // as a property to create a strong reference which keeps it around, but
+        // then ARC automatically releases it, and there is a corresponding release
+        // inside of the publisher as well, causing it to be over-released.
+        //let _ = Unmanaged<OpenTokVideoCapturer>.passRetained(videoCapture)
+
         // Attach the video capture device to the publisher.
         publisher?.videoCapture = videoCapture
 
