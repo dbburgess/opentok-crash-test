@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="kSi-Id-3l7">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="YSA-kb-JuY">
+            <objects>
+                <navigationController id="kSi-Id-3l7" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Crm-mB-Co6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ZVJ-i2-Sml"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Swp-6G-5dK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="732" y="-9"/>
+        </scene>
+        <!--OpenTok Crash Test-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="OpenTok Crash Test" id="BYZ-38-t0r" customClass="ViewController" customModule="OpenTok_Crash_Test" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +32,72 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JBr-hv-Bpl">
+                                <rect key="frame" x="285" y="285" width="30" height="30"/>
+                                <state key="normal" title="Go"/>
+                                <connections>
+                                    <segue destination="nN6-Ja-Bbd" kind="show" id="pKF-ff-qOG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap the button to initialize the test." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Jrv-pk-2yX">
+                                <rect key="frame" x="168" y="256" width="265" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JBr-hv-Bpl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4rG-2c-dbJ"/>
+                            <constraint firstItem="JBr-hv-Bpl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="MLD-8I-sfa"/>
+                            <constraint firstItem="JBr-hv-Bpl" firstAttribute="top" secondItem="Jrv-pk-2yX" secondAttribute="bottom" constant="8" id="Unm-n0-4Ko"/>
+                            <constraint firstItem="Jrv-pk-2yX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v1v-C2-OIW"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="OpenTok Crash Test" id="5fY-E7-aHg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1428" y="-9"/>
+        </scene>
+        <!--OpenTok Initialized-->
+        <scene sceneID="Of1-cF-zPo">
+            <objects>
+                <viewController title="OpenTok Initialized" id="nN6-Ja-Bbd" customClass="TokViewController" customModule="OpenTok_Crash_Test" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h2F-fA-9l1"/>
+                        <viewControllerLayoutGuide type="bottom" id="xky-jS-ZN1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uBV-YO-Jud">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OpenTok has been initialized." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Pfr-zY-aI3">
+                                <rect key="frame" x="189" y="290" width="223" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press back to de-initialize it and observe the crash." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="OON-Ck-dB4">
+                                <rect key="frame" x="105" y="319" width="390" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OON-Ck-dB4" firstAttribute="top" secondItem="Pfr-zY-aI3" secondAttribute="bottom" constant="8" id="Afb-Na-zQE"/>
+                            <constraint firstItem="Pfr-zY-aI3" firstAttribute="centerY" secondItem="uBV-YO-Jud" secondAttribute="centerY" id="HrJ-6p-Myc"/>
+                            <constraint firstItem="Pfr-zY-aI3" firstAttribute="centerX" secondItem="uBV-YO-Jud" secondAttribute="centerX" id="dgL-1P-DDT"/>
+                            <constraint firstItem="OON-Ck-dB4" firstAttribute="centerX" secondItem="uBV-YO-Jud" secondAttribute="centerX" id="wI8-8j-gUE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N2k-7J-i01" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2167" y="-9"/>
         </scene>
     </scenes>
 </document>
