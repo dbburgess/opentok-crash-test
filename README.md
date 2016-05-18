@@ -4,6 +4,8 @@ This repo demonstrates a crash in the [OpenTok iOS SDK](https://www.tokbox.com/d
 
 #### Crash Details
 
+###### Note: There is an update to these details, see [additional details](#additional-details) below.
+
 When setting up `OTPublisherKit` to publish to an `OTSession`, if you provide your own `OTVideoCapture` object, there is a crash when everything is cleaned up and shut down. There is some interesting memory management issues going on here. If you just create the capture device and assign it like this:
 
 ```swift
@@ -53,6 +55,14 @@ In summary, the SDK is over-releasing `videoCapture`, and it is just working oka
 #### Workaround
 
 For anyone using Swift, I've added an example of a simple hack to workaround this issue to the project. Simply uncomment [TokViewController.swift#L77](https://github.com/dbburgess/opentok-crash-test/blob/master/OpenTok-Crash-Test/TokViewController.swift#L77) to see it in action. All it is doing is performing a retain to +1 the reference count without a corresponding release, to match the behavior of the above sample Objective-C code. In any other circumstance, this would result in a memory leak...So be conscious of that if this bug gets fixed in a newer version of the SDK.
+
+#### Additional Details
+
+There is a fun discussion about this in the [OpenTok Support Forums](https://support.tokbox.com/hc/en-us/community/posts/206712006-OpenTok-Crash-when-using-custom-OTVideoCapture-for-OTPublisherKit-) worth perusing. In short, the issue is actually that ARC sees the `initCapture` method on the class implementing `OTVideoCapture` as a `initializer`, and as such, is inserting a `release` without a corresponding `retain`. This is causing the reference count to get slightly out of whack, since it isn't actually an `initializer`.
+
+I don't think this should actually be happening, because according to the [ARC docs](http://clang.llvm.org/docs/AutomaticReferenceCounting.html#method-families) for what defines an `init` method, they must _"must return an Objective-C pointer type"_, and the method certainly doesn't return one. However, [Swift initializers do not return a value](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html), which may be why ARC is treating the method this way.
+
+Moral of the story: Don't use `init` in your method names, unless it is actually an `initializer`.
 
 #### Test Version Details
 
